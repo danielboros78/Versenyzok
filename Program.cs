@@ -10,6 +10,49 @@ namespace Versenyzok
     {
         static void Main(string[] args)
         {
+            ElsoFeladat();
+            MasodikFeladat();
+            HarmadikFeladat();
+            NegyedikFeladat();
+            OtodikFeladat();
+            HatodikFeladat();
+            HetedikFeladat();
+            Console.ReadKey();
+        }
+
+        private static void HetedikFeladat()
+        {
+
+        }
+
+        private static void HatodikFeladat()
+        {
+
+        }
+
+        private static void OtodikFeladat()
+        {
+
+        }
+
+        private static void NegyedikFeladat()
+        {
+
+        }
+
+        private static void HarmadikFeladat()
+        {
+
+        }
+
+        private static void MasodikFeladat()
+        {
+
+        }
+
+        private static void ElsoFeladat()
+        {
+
         }
     }
 }
