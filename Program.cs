@@ -38,7 +38,7 @@ namespace Versenyzok
 
         private static void NegyedikFeladat()
         {
-
+            Console.WriteLine($"4. feladat: {adat.Last().Nev}");
         }
 
         private static void HarmadikFeladat()
