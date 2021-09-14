@@ -43,7 +43,7 @@ namespace Versenyzok
 
         private static void HarmadikFeladat()
         {
-
+            Console.WriteLine($"3. feladat: {adat.Count}");
         }
 
         private static void MasodikFeladat()
