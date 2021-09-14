@@ -33,7 +33,18 @@ namespace Versenyzok
 
         private static void OtodikFeladat()
         {
-
+            DateTime[] datum = new DateTime[adat.Count];
+            for (int i = 0; i < datum.Length; i++)
+            {
+                datum[i] = DateTime.Parse(adat[i].SzuletesiDatum);
+            }
+            for (int i = 0; i < datum.Length; i++)
+            {
+                if (datum[i] < DateTime.Parse("1901.01.01"))
+                {
+                    Console.WriteLine($"\t{adat[i].Nev} ( {adat[i].SzuletesiDatum} )");
+                }
+            }
         }
 
         private static void NegyedikFeladat()
