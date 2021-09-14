@@ -28,7 +28,17 @@ namespace Versenyzok
 
         private static void HatodikFeladat()
         {
-
+            int min = 99;
+            string nemzetiseg = "";
+            for (int i = 0; i < adat.Count; i++)
+            {
+                    if (adat[i].Rajtszam < min && adat[i].Rajtszam != 0)
+                    {
+                        min = adat[i].Rajtszam;
+                        nemzetiseg = adat[i].Nemzetiseg;
+                    }
+            }
+            Console.WriteLine($"6. feladat: {nemzetiseg}");
         }
 
         private static void OtodikFeladat()
