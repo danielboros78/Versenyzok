@@ -23,7 +23,6 @@ namespace Versenyzok
 
         private static void HetedikFeladat()
         {
-
             Dictionary<int, int> rajt = new Dictionary<int, int>();
             foreach (var a in adat)
             {
@@ -36,7 +35,6 @@ namespace Versenyzok
                     rajt[a.Rajtszam]++;
                 }
             }
-
             Console.Write("7. feladat: ");
             int minRajt = 1;
             foreach (var r in rajt)
@@ -46,8 +44,6 @@ namespace Versenyzok
                     Console.Write($"{r.Key}, ");
                 }
             }
-
-
         }
 
         private static void HatodikFeladat()
