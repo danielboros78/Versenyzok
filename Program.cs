@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Versenyzok
 {
     class Program
     {
+        static List<Adatok> adat = new List<Adatok>();
         static void Main(string[] args)
         {
-            ElsoFeladat();
             MasodikFeladat();
             HarmadikFeladat();
             NegyedikFeladat();
@@ -46,11 +47,6 @@ namespace Versenyzok
         }
 
         private static void MasodikFeladat()
-        {
-
-        }
-
-        private static void ElsoFeladat()
         {
 
         }
