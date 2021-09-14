@@ -48,7 +48,15 @@ namespace Versenyzok
 
         private static void MasodikFeladat()
         {
+            Console.WriteLine("2. feladat: Adatok beolvasása");
+            StreamReader olvas = new StreamReader("pilotak.csv");
+            olvas.ReadLine();
+            while (!olvas.EndOfStream)
+            {
+                adat.Add(new Adatok(olvas.ReadLine()));
 
+            }
+            olvas.Close();
         }
     }
 }

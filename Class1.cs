@@ -40,5 +40,16 @@ namespace Versenyzok
             set { rajtszam = value; }
         }
 
+        public Adatok(string egySor)
+        {
+            string[] sor = egySor.Split(';');
+            this.nev = sor[0];
+            this.szuletesiDatum = sor[1];
+            this.nemzetiseg = sor[2];
+            if (!string.IsNullOrEmpty(sor[3]))
+            {
+                this.rajtszam = int.Parse(sor[3]);
+            }
+        }
     }
 }
